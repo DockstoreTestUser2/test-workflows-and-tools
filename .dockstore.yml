@@ -5,3 +5,9 @@ tools:
 workflows:
    - subclass: cwl
      primaryDescriptorPath: /workflows/HelloWorld.cwl
+service:
+   - subclass: cwl
+     primaryDescriptorPath: /workflows/HelloWorld.cwl
+     name: fake-service
+     files:
+       - README.md
