@@ -6,7 +6,9 @@ workflows:
    - subclass: cwl
      primaryDescriptorPath: /workflows/HelloWorld.cwl
 service:
-   - subclass: DOCKER_COMPOSE
-     name: fake-service
-     files:
-       - README.md
+   subclass: NOT_APPLICABLE
+   name: fake-service
+   files:
+     - README.md
+   scripts:
+     start: README.md
