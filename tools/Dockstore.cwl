@@ -21,7 +21,7 @@ dct:creator:
   foaf:mbox: briandoconnor@gmail.com
 requirements:
 - class: DockerRequirement
-  dockerPull: quay.io/briandoconnor/dockstore-tool-md5sum:1.0.4
+  dockerPull: quay.io/dockstore-testing/dockstore-tool-md5sum:1.0.4
 - class: InlineJavascriptRequirement
 hints:
 - class: ResourceRequirement
